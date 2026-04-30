@@ -1,3 +1,5 @@
+import profile from "../assets/profile.jpeg";
+
 function About() {
   const facts = [
     { label: "University", value: "Pokhara University" },
@@ -23,7 +25,7 @@ function About() {
           {/* Image */}
           <div className="flex-shrink-0">
             <img
-              src="src/assets/profile.jpeg"
+              src={profile}
               alt="Profile"
               className="w-56 h-56 rounded-full object-cover border-4 border-gray-700 shadow-xl hover:scale-105 transition"
             />
