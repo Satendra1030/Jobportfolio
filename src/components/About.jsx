@@ -61,7 +61,7 @@ function About() {
 
             {/* CV Button */}
             <a
-              href="/public/cv.pdf.pdf"
+              href="/cv.pdf"
               download
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-500 hover:scale-105 transition"
             >
