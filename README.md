@@ -18,5 +18,5 @@ This is my personal portfolio built using React + Tailwind CSS.
 https://jobportfolio-chi.vercel.app/
 
 ## 📬 Contact
-- Email: your@email.com
+- Email: satendraprasadkushwaha1030@gmail.com
 - GitHub: https://github.com/Satendra1030
