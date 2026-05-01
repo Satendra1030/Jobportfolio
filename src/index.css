@@ -1,4 +1,6 @@
 @import "tailwindcss";
+
+/* Fade-in animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -10,6 +12,17 @@
   }
 }
 
+/* Utility class */
 .animate-fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Your custom section class */
+.satendra {
+  scroll-margin-top: 80px; /* fixes navbar overlap */
+}
+
+/* Optional: combine satendra + animation automatically */
+.satendra {
   animation: fadeIn 1s ease-in-out;
 }

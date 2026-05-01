@@ -6,24 +6,4 @@
     <priority>1.0</priority>
   </url>
 
-  <url>
-    <loc>https://jobportfolio-chi.vercel.app/#about</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://jobportfolio-chi.vercel.app/#skills</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://jobportfolio-chi.vercel.app/#projects</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://jobportfolio-chi.vercel.app/#contact</loc>
-    <priority>0.8</priority>
-  </url>
-
 </urlset>

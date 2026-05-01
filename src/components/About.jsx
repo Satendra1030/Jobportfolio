@@ -1,32 +1,30 @@
 import profile from "../assets/profile.jpeg";
+import { userData } from "../config";
 
 function About() {
   const facts = [
-    { label: "University", value: "Pokhara University" },
-    { label: "Degree", value: "Computer Engineering" },
-    { label: "Semester", value: "8th Semester" },
-    { label: "Location", value: "Pokhara, Nepal" },
-    { label: "Available for", value: "Internship / Part-time" },
+    { label: "University", value: userData.university },
+    { label: "Degree", value: userData.degree },
+    { label: "Semester", value: userData.semester },
+    { label: "Location", value: userData.location },
+    { label: "Available for", value: userData.availability },
   ];
 
   return (
     <section id="about" className="py-20 px-6 bg-black text-white">
-
       <div className="max-w-5xl mx-auto">
 
-        {/* Title */}
         <h2 className="text-3xl font-bold text-center mb-12">
           About <span className="text-blue-500">Me</span>
         </h2>
 
-        {/* Layout */}
         <div className="flex flex-col md:flex-row gap-12 items-center">
 
           {/* Image */}
           <div className="flex-shrink-0">
             <img
               src={profile}
-              alt="Profile"
+              alt={`${userData.name} - ${userData.title}`}
               className="w-56 h-56 rounded-full object-cover border-4 border-gray-700 shadow-xl hover:scale-105 transition"
             />
           </div>
@@ -35,11 +33,12 @@ function About() {
           <div className="flex-1">
 
             <p className="text-gray-400 leading-relaxed mb-6">
-              Hi! I'm Rishi, a final year Computer Engineering student at
-              Pokhara University. I love building modern web applications using
-              React and Tailwind CSS. I enjoy creating clean UI, solving problems,
-              and continuously learning new technologies. Currently seeking an
-              internship to grow as a frontend developer.
+              Hi! I'm {userData.name}, a final year {userData.degree} student at{" "}
+              {userData.university}, {userData.location}. I specialize in React
+              and frontend development, building modern and responsive web
+              applications. I enjoy creating clean UI designs, solving real-world
+              problems, and continuously learning new technologies. Currently
+              seeking an internship as a frontend developer.
             </p>
 
             {/* Facts */}
