@@ -60,7 +60,7 @@ function About() {
 
             {/* CV Button */}
             <a
-              href="public/Satendra Prasad Kushwaha Resume.pdf"
+              href="public/Satendra-Resume.pdf"
               download
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-500 hover:scale-105 transition"
             >
